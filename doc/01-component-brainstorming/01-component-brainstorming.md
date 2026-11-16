@@ -1,8 +1,8 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**:Naga Damacharla
+- **Dot Number**: damacharla.2
+- **Due Date**: 11/13/2026
 
 ## Assignment Overview
 
@@ -114,7 +114,7 @@ reason -->
 
 ## Assignment
 
-<!-- TODO: read the assignment section then delete this comment -->
+
 
 As previously stated, you are tasked with brainstorming 3 possible components.
 To aid you in this process, we have provided [some example components][example-components]
@@ -143,7 +143,7 @@ about different ways you might allow a client to manipulate your component.
 
 ### Example Component
 
-<!-- TODO: review this example component then delete this comment -->
+
 
 To help you brainstorm a few components, we've provided an example below of a
 component you already know well: NaturalNumber. We highly recommend that you
@@ -211,20 +211,25 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
+- Component Design #1: A checklist
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - The function of this checklist is for students to easily input their tasks into this checklist and then remove them when it is complete. The kernal methods will the basic tasks of adding and removing methods from the list as well having a list size, and contains. The secondary methods would include a sort by urgency, a moveToFirst method
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - 'void addTask(Map.Pair<String, enum>)' - adds a new task to checklist
+    - 'String deleteTask(String)' - delets a task from checklist
+    - 'int size()' - take this and reports the size
+    -  ' boolean contains(String)' - takes this and checks if existing string is there
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - sort() - should sort this based on the value
+    - moveToFirst(String) - moves the Pair containing thr string to the very first of the list
+    - changeUrgency(String) - changes the value of the map pair
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes the it should be mutable because that is the whole point of a checklist
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes it is gonna have Map.Pair since it would have to be first in first out but it would be very benefical to have additonal information along with the task
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
       - <!-- TODO: provide an argument then delete this comment -->
